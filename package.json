@@ -1,0 +1,20 @@
+{
+  "name": "noface",
+  "version": "0.0.0",
+  "description": "hide faces",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Hannes Hörl <hannes.hoerl@snowreporter.com>",
+  "license": "BSD",
+  "dependencies": {
+    "faced": "git://github.com/hoegaarden/faced",
+    "connect": "~2.8.4",
+    "formidable": "~1.0.14",
+    "gm": "~1.11.0"
+  },
+  "config": {
+    "http_port": 8080
+  }
+}
